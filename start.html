@@ -1,0 +1,47 @@
+<!--
+    Copyright(c) 2014-2015 Weiming Wang
+    This file is part of Plumber.
+    You can copy and/or distribute this file freely provided mentioning the author's contribution in your distribution document.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plumber 1.0</title>
+
+	    <script type="text/javascript" src="src/crafty/crafty-min.js"></script>
+        <script type="text/javascript" src="src/jquery/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="src/jquery/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" src="src/environment.js"></script>
+        <script type="text/javascript" src="src/game.js"></script>
+        <script type="text/javascript" src="src/sounds.js"></script>
+        <script type="text/javascript" src="src/sprites.js"></script>
+        <script type="text/javascript" src="src/player.js"></script>
+        <script type="text/javascript" src="src/enemy.js"></script>
+        <script type="text/javascript" src="src/npc.js"></script>
+        <script type="text/javascript" src="src/objects.js"></script>
+        <script type="text/javascript" src="src/controller.js"></script>
+        <script type="text/javascript" src="src/weapons.js"></script>
+        <script type="text/javascript" src="src/levels.loading.js"></script>
+        <script type="text/javascript" src="src/levels.level1.js"></script>
+        <script type="text/javascript" src="src/levels.gameover.js"></script>
+        <script type="text/javascript" src="src/levels.levelclear.js"></script>
+        
+        <link href="src/main.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="banner"><div class="logo tab"></div><div class="info"><h1>Plumber!</h1></div></div>
+      <div id="stage">
+          <div id="interface">
+              <div class="gameinfo text center score">Score: 0</div>
+          </div>
+          <div class="alert"></div>
+          <div id="loading">
+              <div class="button">Play Game</div>
+              <div class="bars bottom">
+                  <div id="load"><span class="text"></span></div>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
